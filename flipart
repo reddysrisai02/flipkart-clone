@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <!-- ------------------------Links------------------------ -->
+    <link rel="stylesheet" href="css/style.css.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ------------------------Header------------------------ -->
+    <header class="header">
+        <!-- ------------------------Header Left------------------------ -->
+        <section class="header-left">
+            <!-- ------------------------Logo------------------------ -->
+            <div class="logo">
+                <a href="/"><img src="/img/flipkart-logo.png" alt=""></a>
+            </div>
+            <!-- ------------------------Search Bar------------------------ -->
+              
+                <form action="">
+                    <input type="text" placeholder="Search for products, brands and more">
+                    <button type="submit" class="header-search-bar-btn">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </form>
+            </dev>
+        </section>
+        <!-- ------------------------Header Right------------------------ -->
+        <section class="header-right">
+            <!-- ------------------------Login btn------------------------ -->
+            <div class="header-login">
+                <button type="submit" class="header-login-btn">
+                    <a href="">Login</a>
+                </button>
+            </div>
+            <!-- ------------------------Cart------------------------ -->
+            <section class="header-cart">
+                <div class="header-cart-contain hide-1">
+                    <a href="">Become a seller</a>
+                </div>
+                <div class="header-cart-contain hide-1">
+                    <a href="">More</a>
+                </div>
+                <div class="header-cart-contain header-cart-contain-last">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <a href="">Cart</a>
+                </div>
+            </section>
+        </section>
+    </header>
+    <!-- ------------------------Header Second------------------------ -->
+    <header class="header-second">
+        <div class="header-second-main">
+            <!-- ------------------------Header Second Top------------------------ -->
+            <section class="header-second-top">
+                <section class="header-second-top-left">
+                    <!-- ------------------------Logo------------------------ -->
+                    <div class="logo">
+                        <a href="/"><img src="/img/flipkart-logo.png" alt=""></a>
+                    </div>
+                </section>
+                <section class="header-second-top-right">
+                    <!-- ------------------------Cart------------------------ -->
+                    <div class="header-second-cart">
+                        <a href="">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <!-- ------------------------Login btn------------------------ -->
+                    <div class="header-second-login">
+                        <button type="submit" class="header-second-login-btn">
+                            <a href="">Login</a>
+                        </button>
+                    </div>
+                </section>
+            </section>
+            <!-- ------------------------Header Second Bottom------------------------ -->
+            <section class="header-second-bottom">
+                <!-- ------------------------Search Bar------------------------ -->
+                <dev class="header-second-search-bar">
+                    <form action="">
+                        <button type="submit" class="header-second-search-bar-btn">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                        <input type="text" placeholder="Search for products, brands and more">
+                    </form>
+                </dev>
+            </section>
+        </div>
+    </header>
+    <!-- ------------------------Navigation Category------------------------ -->
+    <nav class="nav-category">
+    <!-- ------------------------Section Top------------------------ -->
+        <section class="nav-category-left">
+            <div class="nav-category-contain">
+                <img src="/img/xiaomi.png" alt="">
+                <a href="">Top Offers</a>
+            </div>
+            <div class="nav-category-contain">
+                <img src="/img/xiaomi.png" alt="">
+                <a href="">Mobiles & Tablets</a>
+            </div>
+            <div class="nav-category-contain">
+                <img src="/img/xiaomi.png" alt="">
+                <a href="">Electronics</a>
+            </div>
+            <div class="nav-category-contain">
+                <img src="/img/xiaomi.png" alt="">
+                <a href="">Fashion</a>
+            </div>
+            <div class="nav-category-contain">
+                <img src="/img/xiaomi.png" alt="">
+                <a href="">Beauty</a>
+            </div>
+        </section>
+        <!-- ------------------------Section Bottom------------------------ -->
+        <section class="nav-category-right">
+            <div class="nav-category-contain">
+                <img src="/img/xiaomi.png" alt="">
+                <a href="">Home & Furniture</a>
+            </div>
+            <div class="nav-category-contain">
+                <img src="/img/xiaomi.png" alt="">
+                <a href="">Appliances</a>
+            </div>
+            <div class="nav-category-contain">
+                <img src="/img/xiaomi.png" alt="">
+                <a href="">Travel</a>
+            </div>
+            <div class="nav-category-contain">
+                <img src="/img/xiaomi.png" alt="">
+                <a href="">Grocery</a>
+            </div>
+            <div class="nav-category-contain">
+                <img src="/img/xiaomi.png" alt="">
+                <a href="">More</a>
+            </div>
+        </section>
+    </nav>
+    <!-- ------------------------Auto Slider------------------------ -->
+    <section class="auto-slider">
+        <div class="auto-slider-left-btn">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </div>
+        <div class="auto-slider-right-btn">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+    </section>
+    <!-- ------------------------Bank Offer Post------------------------ -->
+    <section class="bank-Offer-post">
+        <div class="bank-Offer-post-img">
+            <img src="/img/Bank-offer.png" alt="">
+        </div>
+    </section>
+    <!-- ------------------------Top Three Product------------------------ -->
+    <section class="top-three-product">
+        <div class="top-three-product-contain">
+            <a href="">
+                <img src="/img/3.png" alt="">
+            </a>
+            <a href="">
+                <img src="/img/3.png" alt="">
+            </a>
+            <a href="">
+                <img src="/img/3.png" alt="">
+            </a>
+        </div>
+    </section>
+    <!-- ------------------------Top Offer With Slide Bar------------------------ -->
+    <section class="top-offer-with-slide-bar">
+        <!-- ------------------------Top Offer Left------------------------ -->
+        <div class="top-offer-with-slide-bar-left">
+            <div class="top-offer-with-slide-bar-left-img">
+                <a href="">
+                    <img src="/img/Special-offer.png" alt="">
+                </a>
+            </div>
+            <div class="top-offer-with-slide-bar-left-btn">
+                <button type="submit">
+                    <a href="">VIEW ALL</a>
+                </button>
+            </div>
+        </div>
+        <!-- ------------------------Top Offer Mid------------------------ -->
+        <div class="top-offer-with-slide-bar-mid">
+            <div class="auto-slider-left-btn">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            </div>
+            <div class="auto-slider-right-btn">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            </div>
+        </div>
+        <!-- ------------------------Top Offer Right------------------------ -->
+        <div class="top-offer-with-slide-bar-right">
+            <a href="">
+                <img src="/img/pngwing2.png" alt="">
+            </a>
+        </div>
+    </section>
+    <!-- ------------------------Top Nine Product------------------------ -->
+    <section class="top-nine-product">
+        <div class="top-nine-product-contain">
+            <a href="">
+                <img src="/img/Dimensions.jpg" alt="">
+            </a>
+            <a href="">
+                <img src="/img/Dimensions.jpg" alt="">
+            </a>
+            <a href="">
+                <img src="/img/Dimensions.jpg" alt="">
+            </a>
+            <a href="">
+                <img src="/img/Dimensions.jpg" alt="">
+            </a>
+            <a href="">
+                <img src="/img/Dimensions.jpg" alt="">
+            </a>
+            <a href="">
+                <img src="/img/Dimensions.jpg" alt="">
+            </a>
+            <a href="">
+                <img src="/img/Dimensions.jpg" alt="">
+            </a>
+            <a href="">
+                <img src="/img/Dimensions.jpg" alt="">
+            </a>
+            <a href="">
+                <img src="/img/Dimensions.jpg" alt="">
+            </a>
+        </div>
+    </section>
+    <!-- ------------------------Footer------------------------ -->
+    <footer class="footer">
+        <p>Copyright &#169; <a href="">flipkart.com</a></p>
+    </footer>
+</body>
+
+</html>
